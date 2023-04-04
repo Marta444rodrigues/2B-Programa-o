@@ -1,1 +1,14 @@
+:root{
+    --azul: #4CC9F0;
+    --azul-claro: #84D2F6;
+    --azul-marinho: #2424CC;
+    --azul-escuro: #003459;
+    --preto: #000033;
+}
+.cabecalho{
+    background-color: var(--azul-marinho);
+}
 
+.logo{
+    width: 10%;
+}
