@@ -2,7 +2,7 @@
     --azul: #4CC9F0;
     --azul-claro: #004d71;
     --azul-marinho: #2c2c6adf;
-    --azul-escuro:var(--azul-escuro)
+    --azul-escuro:#2424CC
     --preto-#00171F;
 
     ;
@@ -36,4 +36,21 @@ m
 }
 .principal{
     background-color:var(--azul-marinho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-titulo{
+    font-size: 64px;
+    padding:20px ;
+}
+.principal-texto{
+padding:20px;
+font-size:25px ;
+
+}
+.principal-imagem{
+    padding: 10px;
+    margin: 70px;
+    width: 10px;
 }
